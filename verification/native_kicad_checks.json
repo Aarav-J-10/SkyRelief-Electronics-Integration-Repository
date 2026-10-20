@@ -1,0 +1,227 @@
+{
+  "tool_version": "9.0.7",
+  "tool_version_exit": 0,
+  "physical_test": false,
+  "projects": [
+    {
+      "project": "delivery_historical_power",
+      "erc": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "erc",
+          "--format",
+          "json",
+          "--units",
+          "mm",
+          "--exit-code-violations",
+          "-o",
+          "verification/delivery_historical_power_erc.json",
+          "kicad/delivery_historical_power.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Found 0 violations\nSaved ERC Report to verification/delivery_historical_power_erc.json\n",
+        "stderr": ""
+      },
+      "violations_by_type": {},
+      "severities": {},
+      "svg": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "svg",
+          "--black-and-white",
+          "--exclude-drawing-sheet",
+          "-o",
+          "kicad/exports/delivery_historical_power/",
+          "kicad/delivery_historical_power.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Plotted to '.\\kicad\\exports\\delivery_historical_power\\delivery_historical_power.svg'.\nDone.\n",
+        "stderr": ""
+      },
+      "pdf": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "pdf",
+          "--black-and-white",
+          "--exclude-drawing-sheet",
+          "--exclude-pdf-metadata",
+          "-o",
+          "kicad/exports/delivery_historical_power.pdf",
+          "kicad/delivery_historical_power.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Plotted to 'kicad\\exports\\delivery_historical_power.pdf'.\nDone.\n",
+        "stderr": ""
+      },
+      "netlist": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "netlist",
+          "--format",
+          "kicadxml",
+          "-o",
+          "kicad/exports/delivery_historical_power.net",
+          "kicad/delivery_historical_power.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "project": "delivery_reference",
+      "erc": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "erc",
+          "--format",
+          "json",
+          "--units",
+          "mm",
+          "--exit-code-violations",
+          "-o",
+          "verification/delivery_reference_erc.json",
+          "kicad/delivery_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Found 0 violations\nSaved ERC Report to verification/delivery_reference_erc.json\n",
+        "stderr": ""
+      },
+      "violations_by_type": {},
+      "severities": {},
+      "svg": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "svg",
+          "--black-and-white",
+          "--exclude-drawing-sheet",
+          "-o",
+          "kicad/exports/delivery_reference/",
+          "kicad/delivery_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Plotted to '.\\kicad\\exports\\delivery_reference\\delivery_reference.svg'.\nDone.\n",
+        "stderr": ""
+      },
+      "pdf": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "pdf",
+          "--black-and-white",
+          "--exclude-drawing-sheet",
+          "--exclude-pdf-metadata",
+          "-o",
+          "kicad/exports/delivery_reference.pdf",
+          "kicad/delivery_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Plotted to 'kicad\\exports\\delivery_reference.pdf'.\nDone.\n",
+        "stderr": ""
+      },
+      "netlist": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "netlist",
+          "--format",
+          "kicadxml",
+          "-o",
+          "kicad/exports/delivery_reference.net",
+          "kicad/delivery_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "project": "scout_reference",
+      "erc": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "erc",
+          "--format",
+          "json",
+          "--units",
+          "mm",
+          "--exit-code-violations",
+          "-o",
+          "verification/scout_reference_erc.json",
+          "kicad/scout_reference.kicad_sch"
+        ],
+        "exit_code": 5,
+        "stdout": "Found 9 violations\nSaved ERC Report to verification/scout_reference_erc.json\n",
+        "stderr": ""
+      },
+      "violations_by_type": {
+        "pin_not_connected": 9
+      },
+      "severities": {
+        "error": 9
+      },
+      "svg": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "svg",
+          "--black-and-white",
+          "--exclude-drawing-sheet",
+          "-o",
+          "kicad/exports/scout_reference/",
+          "kicad/scout_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Plotted to '.\\kicad\\exports\\scout_reference\\scout_reference.svg'.\nDone.\n",
+        "stderr": ""
+      },
+      "pdf": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "pdf",
+          "--black-and-white",
+          "--exclude-drawing-sheet",
+          "--exclude-pdf-metadata",
+          "-o",
+          "kicad/exports/scout_reference.pdf",
+          "kicad/scout_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "Plotted to 'kicad\\exports\\scout_reference.pdf'.\nDone.\n",
+        "stderr": ""
+      },
+      "netlist": {
+        "command": [
+          "kicad-cli",
+          "sch",
+          "export",
+          "netlist",
+          "--format",
+          "kicadxml",
+          "-o",
+          "kicad/exports/scout_reference.net",
+          "kicad/scout_reference.kicad_sch"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  ]
+}

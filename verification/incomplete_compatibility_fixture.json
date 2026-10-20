@@ -1,0 +1,15 @@
+{
+  "description": "Known-incomplete historical interface declaration; validator must reject. Not a firmware configuration.",
+  "board_revision": "UNKNOWN",
+  "firmware_target": "UNKNOWN",
+  "firmware_version": "UNKNOWN",
+  "battery_cell_count": "UNKNOWN",
+  "receiver_protocol": "UNKNOWN",
+  "motor_order": "UNKNOWN",
+  "servo_supply_source": "UNKNOWN",
+  "servo_return_path": "UNKNOWN",
+  "servo_output_assignment": "UNKNOWN",
+  "servo_logic_levels": "UNKNOWN",
+  "servo_endpoints_review": "UNKNOWN",
+  "failsafe_review": "UNKNOWN"
+}

@@ -1,0 +1,30 @@
+{
+  "command": [
+    "python",
+    "-I",
+    "scripts/check_compatibility.py",
+    "verification/incomplete_compatibility_fixture.json"
+  ],
+  "expected_exit": 2,
+  "actual_exit": 2,
+  "status": "PASS - incomplete declaration correctly rejected",
+  "result": {
+    "status": "INCOMPLETE - not suitable for hardware use",
+    "missing_fields": [
+      "board_revision",
+      "firmware_target",
+      "firmware_version",
+      "battery_cell_count",
+      "receiver_protocol",
+      "motor_order",
+      "servo_supply_source",
+      "servo_return_path",
+      "servo_output_assignment",
+      "servo_logic_levels",
+      "servo_endpoints_review",
+      "failsafe_review"
+    ],
+    "physical_validation": false,
+    "configuration_generated": false
+  }
+}

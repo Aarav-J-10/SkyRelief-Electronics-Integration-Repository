@@ -1,0 +1,37 @@
+[
+  {
+    "repository": "SkyRelief-Electronics-Integration",
+    "file": "evidence/original/Payload_Drone_COMPONENT_LIST.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  },
+  {
+    "repository": "SkyRelief-Electronics-Integration",
+    "file": "evidence/original/Scout_Drone_Components.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  },
+  {
+    "repository": "SkyRelief-Electronics-Integration",
+    "file": "kicad/exports/delivery_historical_power.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  },
+  {
+    "repository": "SkyRelief-Electronics-Integration",
+    "file": "kicad/exports/delivery_reference.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  },
+  {
+    "repository": "SkyRelief-Electronics-Integration",
+    "file": "kicad/exports/scout_reference.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  }
+]

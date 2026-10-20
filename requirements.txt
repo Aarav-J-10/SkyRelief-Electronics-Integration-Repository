@@ -1,0 +1,2 @@
+# File checks and source generators use Python standard library only.
+# Install KiCad 9.0.7 separately for native ERC and exports.
