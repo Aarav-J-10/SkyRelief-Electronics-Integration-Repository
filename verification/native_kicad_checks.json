@@ -1,5 +1,5 @@
 {
-  "tool_version": "9.0.7",
+  "tool_version": "9.0.9",
   "tool_version_exit": 0,
   "physical_test": false,
   "projects": [
@@ -38,7 +38,7 @@
           "kicad/delivery_historical_power.kicad_sch"
         ],
         "exit_code": 0,
-        "stdout": "Plotted to '.\\kicad\\exports\\delivery_historical_power\\delivery_historical_power.svg'.\nDone.\n",
+        "stdout": "Plotted to './kicad/exports/delivery_historical_power/delivery_historical_power.svg'.\nDone.\n",
         "stderr": ""
       },
       "pdf": {
@@ -55,7 +55,7 @@
           "kicad/delivery_historical_power.kicad_sch"
         ],
         "exit_code": 0,
-        "stdout": "Plotted to 'kicad\\exports\\delivery_historical_power.pdf'.\nDone.\n",
+        "stdout": "Plotted to 'kicad/exports/delivery_historical_power.pdf'.\nDone.\n",
         "stderr": ""
       },
       "netlist": {
@@ -110,7 +110,7 @@
           "kicad/delivery_reference.kicad_sch"
         ],
         "exit_code": 0,
-        "stdout": "Plotted to '.\\kicad\\exports\\delivery_reference\\delivery_reference.svg'.\nDone.\n",
+        "stdout": "Plotted to './kicad/exports/delivery_reference/delivery_reference.svg'.\nDone.\n",
         "stderr": ""
       },
       "pdf": {
@@ -127,7 +127,7 @@
           "kicad/delivery_reference.kicad_sch"
         ],
         "exit_code": 0,
-        "stdout": "Plotted to 'kicad\\exports\\delivery_reference.pdf'.\nDone.\n",
+        "stdout": "Plotted to 'kicad/exports/delivery_reference.pdf'.\nDone.\n",
         "stderr": ""
       },
       "netlist": {
@@ -186,7 +186,7 @@
           "kicad/scout_reference.kicad_sch"
         ],
         "exit_code": 0,
-        "stdout": "Plotted to '.\\kicad\\exports\\scout_reference\\scout_reference.svg'.\nDone.\n",
+        "stdout": "Plotted to './kicad/exports/scout_reference/scout_reference.svg'.\nDone.\n",
         "stderr": ""
       },
       "pdf": {
@@ -203,7 +203,7 @@
           "kicad/scout_reference.kicad_sch"
         ],
         "exit_code": 0,
-        "stdout": "Plotted to 'kicad\\exports\\scout_reference.pdf'.\nDone.\n",
+        "stdout": "Plotted to 'kicad/exports/scout_reference.pdf'.\nDone.\n",
         "stderr": ""
       },
       "netlist": {

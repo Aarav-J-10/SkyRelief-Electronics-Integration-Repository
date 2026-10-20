@@ -1,8 +1,38 @@
 {
-  "status": "PASS",
-  "checks_run": 258,
-  "failures": [],
-  "python": "3.12.14",
+  "status": "FAIL",
+  "checks_run": 396,
+  "failures": [
+    "File manifest covers exact repository: ",
+    "SHA-256 .gitignore: ",
+    "SHA-256 CHANGELOG.md: ",
+    "SHA-256 CITATION.cff: ",
+    "SHA-256 docs/13_Verification_and_ERC_Results.md: ",
+    "SHA-256 kicad/delivery_historical_power.kicad_pro: ",
+    "SHA-256 kicad/delivery_historical_power.kicad_sch: ",
+    "SHA-256 kicad/delivery_reference.kicad_pro: ",
+    "SHA-256 kicad/delivery_reference.kicad_sch: ",
+    "SHA-256 kicad/exports/delivery_historical_power/delivery_historical_power.svg: ",
+    "SHA-256 kicad/exports/delivery_historical_power.net: ",
+    "SHA-256 kicad/exports/delivery_historical_power.pdf: ",
+    "SHA-256 kicad/exports/delivery_reference/delivery_reference.svg: ",
+    "SHA-256 kicad/exports/delivery_reference.net: ",
+    "SHA-256 kicad/exports/delivery_reference.pdf: ",
+    "SHA-256 kicad/exports/scout_reference/scout_reference.svg: ",
+    "SHA-256 kicad/exports/scout_reference.net: ",
+    "SHA-256 kicad/exports/scout_reference.pdf: ",
+    "SHA-256 kicad/libs/SkyRelief.kicad_sym: ",
+    "SHA-256 kicad/scout_reference.kicad_pro: ",
+    "SHA-256 kicad/scout_reference.kicad_sch: ",
+    "SHA-256 LICENSES.md: ",
+    "SHA-256 README.md: ",
+    "SHA-256 scripts/verify_electronics_repository.py: ",
+    "SHA-256 verification/delivery_historical_power_erc.json: ",
+    "SHA-256 verification/delivery_reference_erc.json: ",
+    "SHA-256 verification/native_kicad_checks.json: ",
+    "SHA-256 verification/scout_reference_erc.json: ",
+    "SHA-256 VERSION.txt: "
+  ],
+  "python": "3.13.16",
   "scope": "File/native report validation only; no physical testing",
   "checks": [
     {
@@ -166,22 +196,12 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: CHANGELOG.md",
+      "check": "No local path/secret text: requirements.txt",
       "pass": true,
       "detail": ""
     },
     {
       "check": "No local path/secret text: CITATION.cff",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: CONTRIBUTING.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: Known_Limitations.md",
       "pass": true,
       "detail": ""
     },
@@ -201,92 +221,102 @@
       "detail": ""
     },
     {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: RELEASE_NOTES.md -> CHANGELOG.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: RELEASE_NOTES.md -> PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: PUBLICATION_RELEASE_LOCK.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "No local path/secret text: README.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> data/source_manifest.csv",
+      "check": "Exact-case Markdown link: README.md -> kicad/delivery_historical_power.kicad_sch",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
+      "check": "Exact-case Markdown link: README.md -> kicad/delivery_reference.kicad_sch",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> Known_Limitations.md",
+      "check": "Exact-case Markdown link: README.md -> kicad/scout_reference.kicad_sch",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "check": "Exact-case Markdown link: README.md -> kicad/exports/",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> data/issue_matrix.csv",
+      "check": "Exact-case Markdown link: README.md -> kicad/exports/",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/01_Electrical_System_Overview.md",
+      "check": "Exact-case Markdown link: README.md -> kicad/exports/",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/Source_Document_Register.md",
+      "check": "Exact-case Markdown link: README.md -> .github/workflows/verify.yml",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/Photo_Map.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Schematic_Interpretation.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> bom/README.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Scout_ERC_Unresolved_Register.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> verification/repository_checks.json",
+      "check": "Exact-case Markdown link: README.md -> docs/Scout_and_Delivery_Interface_Trace.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/13_Verification_and_ERC_Results.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Pin_and_Connector_Register.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/01_Electrical_System_Overview.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/02_Delivery_UAV_Architecture.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/03_Scout_UAV_Architecture.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/04_Power_Distribution_and_Budgets.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/05_Pixhawk_and_Peripheral_Interfaces.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/06_Scout_AIO_and_Receiver_Interfaces.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Power_Domain_Analysis.md",
       "pass": true,
       "detail": ""
     },
@@ -296,27 +326,27 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/08_Ranging_and_Vision_Boundaries.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Flight_Control_Configuration_Boundary.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/09_Reference_Implementation_Guide.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Configuration_Matrix.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/10_Firmware_and_Configuration_Status.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Software_and_Algorithm_Provenance.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/11_Source_Provenance_and_Rights.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Electronics_Safety_and_Qualification.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/12_Design_Assumptions_and_Unknowns.md",
+      "check": "Exact-case Markdown link: README.md -> bom/",
       "pass": true,
       "detail": ""
     },
@@ -326,7 +356,37 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/14_Manuscript_Figure_and_Table_Map.md",
+      "check": "Exact-case Markdown link: README.md -> verification/",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_RELEASE_LOCK.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
       "pass": true,
       "detail": ""
     },
@@ -336,12 +396,12 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> CONTRIBUTING.md",
+      "check": "No local path/secret text: LICENSE_MATRIX.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: requirements.txt",
+      "check": "UTF-8 rectangular CSV: LICENSE_MATRIX.csv",
       "pass": true,
       "detail": ""
     },
@@ -351,22 +411,337 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/complete_platform_parts_crosswalk.csv",
+      "check": "No local path/secret text: CHANGELOG.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/complete_platform_parts_crosswalk.csv",
+      "check": "No local path/secret text: Known_Limitations.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/delivery_electronics_bom.csv",
+      "check": "No local path/secret text: CONTRIBUTING.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/delivery_electronics_bom.csv",
+      "check": "No local path/secret text: PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/repository_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/native_kicad_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/Visual_Review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/extracted_archive_engineering_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/pdf_metadata_audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/delivery_reference_erc.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/scout_reference_erc.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/cross_repository_check.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/incomplete_compatibility_fixture.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/Technical_and_Licensing_Audit.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/delivery_historical_power_erc.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/tool_versions.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/compatibility_negative_check.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/file_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: verification/file_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/release_gate.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/write_file_manifest.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/verify_electronics_repository.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/check_release_lock.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/build_schematics.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/compare_repositories.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/run_native_checks.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/check_compatibility.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: configs/ArduPilot_REPRODUCTION_GUIDE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: configs/PERCEPTION_IMPLEMENTATION_BOUNDARY.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: configs/Betaflight_REPRODUCTION_GUIDE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: configs/NO_HISTORICAL_PARAMETER_EXPORTS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/scout_reference.kicad_pro",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/delivery_reference.kicad_pro",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/delivery_historical_power.kicad_pro",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/scout_reference.kicad_sch",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/delivery_reference.kicad_sch",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/delivery_historical_power.kicad_sch",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/evidence_categories.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/archived_thrust_sheet_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/archived_thrust_sheet_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/sketch_label_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/sketch_label_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/withheld_asset_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/withheld_asset_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/issue_matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/issue_matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_freeze.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/erc_unresolved_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/erc_unresolved_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_image_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_image_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_coordinate_scope.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_coordinate_scope.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: bom/scout_electronics_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: bom/scout_electronics_bom.csv",
       "pass": true,
       "detail": ""
     },
@@ -386,12 +761,22 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/scout_electronics_bom.csv",
+      "check": "No local path/secret text: bom/delivery_electronics_bom.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/scout_electronics_bom.csv",
+      "check": "UTF-8 rectangular CSV: bom/delivery_electronics_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: bom/complete_platform_parts_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: bom/complete_platform_parts_crosswalk.csv",
       "pass": true,
       "detail": ""
     },
@@ -406,282 +791,7 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: configs/ArduPilot_REPRODUCTION_GUIDE.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: configs/Betaflight_REPRODUCTION_GUIDE.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: configs/NO_HISTORICAL_PARAMETER_EXPORTS.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: configs/PERCEPTION_IMPLEMENTATION_BOUNDARY.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/archived_thrust_sheet_transcription.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/archived_thrust_sheet_transcription.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/documented_connections.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/documented_connections.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/erc_unresolved_crosswalk.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/erc_unresolved_crosswalk.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/evidence_categories.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/evidence_ledger.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/evidence_ledger.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/included_original_assets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/included_original_assets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/issue_matrix.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/issue_matrix.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/sketch_label_transcription.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/sketch_label_transcription.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_coordinate_scope.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_coordinate_scope.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_freeze.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_geometry_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_geometry_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_image_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_image_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/unresolved_nets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/unresolved_nets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/withheld_asset_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/withheld_asset_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: diagrams/command_and_information_flow.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: diagrams/command_and_information_flow.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: diagrams/delivery_functional_overview.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: diagrams/delivery_functional_overview.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: diagrams/delivery_peripheral_interfaces.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: diagrams/delivery_peripheral_interfaces.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: diagrams/delivery_power_domains.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: diagrams/delivery_power_domains.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: diagrams/scout_functional_overview.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: diagrams/scout_functional_overview.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: diagrams/wiring_evidence_crosswalk.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: diagrams/wiring_evidence_crosswalk.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/01_Electrical_System_Overview.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/01_Electrical_System_Overview.md -> ../data/documented_connections.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/01_Electrical_System_Overview.md -> ../bom/interface_and_connector_register.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/02_Delivery_UAV_Architecture.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/03_Scout_UAV_Architecture.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/04_Power_Distribution_and_Budgets.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/04_Power_Distribution_and_Budgets.md -> ../diagrams/delivery_power_domains.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/05_Pixhawk_and_Peripheral_Interfaces.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/05_Pixhawk_and_Peripheral_Interfaces.md -> ../diagrams/delivery_peripheral_interfaces.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/06_Scout_AIO_and_Receiver_Interfaces.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/07_Servo_Rail_and_Release_Control.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/08_Ranging_and_Vision_Boundaries.md",
+      "check": "No local path/secret text: docs/Software_and_Algorithm_Provenance.md",
       "pass": true,
       "detail": ""
     },
@@ -711,6 +821,41 @@
       "detail": ""
     },
     {
+      "check": "No local path/secret text: docs/Scout_and_Delivery_Interface_Trace.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Scout_and_Delivery_Interface_Trace.md -> Pin_and_Connector_Register.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/08_Ranging_and_Vision_Boundaries.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Historical_Data_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Scout_ERC_Unresolved_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Scout_ERC_Unresolved_Register.md -> ../data/erc_unresolved_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "No local path/secret text: docs/11_Source_Provenance_and_Rights.md",
       "pass": true,
       "detail": ""
@@ -731,16 +876,6 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: docs/12_Design_Assumptions_and_Unknowns.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/12_Design_Assumptions_and_Unknowns.md -> ../data/unresolved_nets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
       "check": "No local path/secret text: docs/13_Verification_and_ERC_Results.md",
       "pass": true,
       "detail": ""
@@ -756,17 +891,42 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: docs/14_Manuscript_Figure_and_Table_Map.md",
+      "check": "Exact-case Markdown link: docs/13_Verification_and_ERC_Results.md -> Scout_ERC_Unresolved_Register.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "check": "No local path/secret text: docs/07_Servo_Rail_and_Release_Control.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: docs/Historical_Data_Interpretation.md",
+      "check": "No local path/secret text: docs/04_Power_Distribution_and_Budgets.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/04_Power_Distribution_and_Budgets.md -> ../diagrams/delivery_power_domains.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/05_Pixhawk_and_Peripheral_Interfaces.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/05_Pixhawk_and_Peripheral_Interfaces.md -> ../diagrams/delivery_peripheral_interfaces.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Pin_and_Connector_Register.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: docs/Pin_and_Connector_Register.csv",
       "pass": true,
       "detail": ""
     },
@@ -816,132 +976,172 @@
       "detail": ""
     },
     {
+      "check": "No local path/secret text: docs/06_Scout_AIO_and_Receiver_Interfaces.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/12_Design_Assumptions_and_Unknowns.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/12_Design_Assumptions_and_Unknowns.md -> ../data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Schematic_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Schematic_Interpretation.md -> Scout_ERC_Unresolved_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Electronics_Safety_and_Qualification.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Configuration_Matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: docs/Configuration_Matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/01_Electrical_System_Overview.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/01_Electrical_System_Overview.md -> ../data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/01_Electrical_System_Overview.md -> ../bom/interface_and_connector_register.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Power_Domain_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Flight_Control_Configuration_Boundary.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Flight_Control_Configuration_Boundary.md -> Configuration_Matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/02_Delivery_UAV_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "No local path/secret text: docs/Source_Document_Register.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: kicad/delivery_historical_power.kicad_pro",
+      "check": "No local path/secret text: docs/03_Scout_UAV_Architecture.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: kicad/delivery_historical_power.kicad_sch",
+      "check": "No local path/secret text: docs/14_Manuscript_Figure_and_Table_Map.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: kicad/delivery_reference.kicad_pro",
+      "check": "No local path/secret text: diagrams/scout_functional_overview.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: kicad/delivery_reference.kicad_sch",
+      "check": "XML parse: diagrams/scout_functional_overview.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: kicad/scout_reference.kicad_pro",
+      "check": "No local path/secret text: diagrams/wiring_evidence_crosswalk.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: kicad/scout_reference.kicad_sch",
+      "check": "XML parse: diagrams/wiring_evidence_crosswalk.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: scripts/build_schematics.py",
+      "check": "No local path/secret text: diagrams/command_and_information_flow.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: scripts/check_compatibility.py",
+      "check": "XML parse: diagrams/command_and_information_flow.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: scripts/compare_repositories.py",
+      "check": "No local path/secret text: diagrams/delivery_functional_overview.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: scripts/run_native_checks.py",
+      "check": "XML parse: diagrams/delivery_functional_overview.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: scripts/verify_electronics_repository.py",
+      "check": "No local path/secret text: diagrams/delivery_power_domains.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: verification/compatibility_negative_check.json",
+      "check": "XML parse: diagrams/delivery_power_domains.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: verification/cross_repository_check.json",
+      "check": "No local path/secret text: diagrams/delivery_peripheral_interfaces.svg",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: verification/delivery_historical_power_erc.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/delivery_reference_erc.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/extracted_archive_engineering_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/incomplete_compatibility_fixture.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/native_kicad_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/pdf_metadata_audit.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/repository_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/scout_reference_erc.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/Technical_and_Licensing_Audit.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/tool_versions.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/Visual_Review.md",
+      "check": "XML parse: diagrams/delivery_peripheral_interfaces.svg",
       "pass": true,
       "detail": ""
     },
     {
       "check": "No local path/secret text: evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/libs/SkyRelief.kicad_sym",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: kicad/exports/scout_reference.net",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "XML parse: kicad/exports/scout_reference.net",
       "pass": true,
       "detail": ""
     },
@@ -962,21 +1162,6 @@
     },
     {
       "check": "XML parse: kicad/exports/delivery_reference.net",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: kicad/exports/scout_reference.net",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: kicad/exports/scout_reference.net",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: kicad/libs/SkyRelief.kicad_sym",
       "pass": true,
       "detail": ""
     },
@@ -1261,7 +1446,7 @@
       "detail": ""
     },
     {
-      "check": "Native KiCad 9.0.7 actually executed",
+      "check": "Native KiCad 9.x actually executed",
       "pass": true,
       "detail": ""
     },
@@ -1293,6 +1478,541 @@
     {
       "check": "Scout unresolved ERC retained",
       "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "File manifest covers exact repository",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .gitignore",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 assets/original_wiring_reference/pld_cd_1.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/complete_platform_parts_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/delivery_electronics_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/interface_and_connector_register.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/scout_electronics_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/supplier_cost_provenance.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CHANGELOG.md",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CITATION.cff",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 configs/ArduPilot_REPRODUCTION_GUIDE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 configs/Betaflight_REPRODUCTION_GUIDE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 configs/NO_HISTORICAL_PARAMETER_EXPORTS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 configs/PERCEPTION_IMPLEMENTATION_BOUNDARY.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CONTRIBUTING.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/archived_thrust_sheet_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/erc_unresolved_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/evidence_categories.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/issue_matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/sketch_label_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_coordinate_scope.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_freeze.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_image_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/withheld_asset_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 diagrams/command_and_information_flow.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 diagrams/delivery_functional_overview.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 diagrams/delivery_peripheral_interfaces.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 diagrams/delivery_power_domains.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 diagrams/scout_functional_overview.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 diagrams/wiring_evidence_crosswalk.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/01_Electrical_System_Overview.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/02_Delivery_UAV_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/03_Scout_UAV_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/04_Power_Distribution_and_Budgets.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/05_Pixhawk_and_Peripheral_Interfaces.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/06_Scout_AIO_and_Receiver_Interfaces.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/07_Servo_Rail_and_Release_Control.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/08_Ranging_and_Vision_Boundaries.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/09_Reference_Implementation_Guide.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/10_Firmware_and_Configuration_Status.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/11_Source_Provenance_and_Rights.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/12_Design_Assumptions_and_Unknowns.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/13_Verification_and_ERC_Results.md",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/14_Manuscript_Figure_and_Table_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Historical_Data_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Photo_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Source_Document_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Payload_Drone_COMPONENT_LIST.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Scout_Drone_Components.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Thrust_Test_1.ods",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld10.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld13.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld2.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld20.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld25.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/scout/sc7.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/scout/sc8.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/scout/sc9.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/delivery_historical_power.kicad_pro",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/delivery_historical_power.kicad_sch",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/delivery_reference.kicad_pro",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/delivery_reference.kicad_sch",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/delivery_historical_power/delivery_historical_power.svg",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/delivery_historical_power.net",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/delivery_historical_power.pdf",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/delivery_reference/delivery_reference.svg",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/delivery_reference.net",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/delivery_reference.pdf",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/scout_reference/scout_reference.svg",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/scout_reference.net",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/scout_reference.pdf",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/libs/SkyRelief.kicad_sym",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/scout_reference.kicad_pro",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/scout_reference.kicad_sch",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/sym-lib-table",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 Known_Limitations.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES.md",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 README.md",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 requirements.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/build_schematics.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/check_compatibility.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/compare_repositories.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/run_native_checks.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/verify_electronics_repository.py",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/compatibility_negative_check.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/cross_repository_check.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/delivery_historical_power_erc.json",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/delivery_reference_erc.json",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/extracted_archive_engineering_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/incomplete_compatibility_fixture.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/native_kicad_checks.json",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/pdf_metadata_audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/repository_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/scout_reference_erc.json",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/Technical_and_Licensing_Audit.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/tool_versions.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/Visual_Review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 VERSION.txt",
+      "pass": false,
       "detail": ""
     }
   ]
