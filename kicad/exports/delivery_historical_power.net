@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>.\kicad\delivery_historical_power.kicad_sch</source>
+    <date>2026-10-20T16:08:12+0530</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Layer 1 / Delivery historical power groups</title>
+        <company>SkyRelief engineering documentation</company>
+        <rev>0.1.0-review</rev>
+        <date>2026-10-20</date>
+        <source>delivery_historical_power.kicad_sch</source>
+        <comment number="1" value="Logical roles only; no historical physical pin map recovered."/>
+        <comment number="2" value="Licence pending author review; no physical test performed."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>3S / 11.1 V nominal</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_BT1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>345300f6-bb26-5f9c-b0e0-631498e86869</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor1 / 920 KV</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_M1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>601be821-449c-50b8-a1eb-db449e73a412</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Motor2 / 920 KV</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_M2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9e86107-498a-560f-8fc7-d8e4b868de09</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Motor3 / 920 KV</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_M3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8961326f-1f5a-5f60-ac08-9eaeb4d1fcaf</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Motor4 / 920 KV</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_M4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>516f2b65-027d-55c8-85af-e8fc56c4af14</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PDB role</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_U1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eea39755-6b0e-5edc-9d66-b5762ac5939a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESC1 / 30 A label</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_U2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66db5e61-b315-5f3d-be08-007e184f0418</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ESC2 / 30 A label</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_U3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec83e3e2-5e25-5fab-bd24-9a33c9fd788b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ESC3 / 30 A label</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_U4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cc34928-2beb-5435-af86-69098c1fc29d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ESC4 / 30 A label</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_historical_power_U5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_historical_power.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a39435a0-1e90-5965-93f0-8a8929f2b6df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SkyRelief" part="delivery_historical_power_BT1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">3S / 11.1 V nominal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="POS" type="passive"/>
+        <pin num="2" name="RET" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_M1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Motor1 / 920 KV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_M2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Motor2 / 920 KV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_M3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Motor3 / 920 KV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_M4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Motor4 / 920 KV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_U1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PDB role</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN_POS" type="passive"/>
+        <pin num="2" name="IN_RET" type="passive"/>
+        <pin num="3" name="OUT_POS" type="passive"/>
+        <pin num="4" name="OUT_RET" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_U2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESC1 / 30 A label</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DC_POS" type="passive"/>
+        <pin num="2" name="DC_RET" type="passive"/>
+        <pin num="3" name="PH_A" type="passive"/>
+        <pin num="4" name="PH_B" type="passive"/>
+        <pin num="5" name="PH_C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_U3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESC2 / 30 A label</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DC_POS" type="passive"/>
+        <pin num="2" name="DC_RET" type="passive"/>
+        <pin num="3" name="PH_A" type="passive"/>
+        <pin num="4" name="PH_B" type="passive"/>
+        <pin num="5" name="PH_C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_U4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESC3 / 30 A label</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DC_POS" type="passive"/>
+        <pin num="2" name="DC_RET" type="passive"/>
+        <pin num="3" name="PH_A" type="passive"/>
+        <pin num="4" name="PH_B" type="passive"/>
+        <pin num="5" name="PH_C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_historical_power_U5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESC4 / 30 A label</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DC_POS" type="passive"/>
+        <pin num="2" name="DC_RET" type="passive"/>
+        <pin num="3" name="PH_A" type="passive"/>
+        <pin num="4" name="PH_B" type="passive"/>
+        <pin num="5" name="PH_C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SkyRelief">
+      <uri>.\kicad/libs/SkyRelief.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/H_BAT_POS" class="Default">
+      <node ref="BT1" pin="1" pinfunction="POS" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN_POS" pintype="passive"/>
+    </net>
+    <net code="2" name="/H_BAT_RET" class="Default">
+      <node ref="BT1" pin="2" pinfunction="RET" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN_RET" pintype="passive"/>
+    </net>
+    <net code="3" name="/H_ESC_POS" class="Default">
+      <node ref="U1" pin="3" pinfunction="OUT_POS" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="DC_POS" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="DC_POS" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="DC_POS" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="DC_POS" pintype="passive"/>
+    </net>
+    <net code="4" name="/H_ESC_RET" class="Default">
+      <node ref="U1" pin="4" pinfunction="OUT_RET" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="DC_RET" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="DC_RET" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="DC_RET" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="DC_RET" pintype="passive"/>
+    </net>
+    <net code="5" name="/H_M1_A" class="Default">
+      <node ref="M1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="PH_A" pintype="passive"/>
+    </net>
+    <net code="6" name="/H_M1_B" class="Default">
+      <node ref="M1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PH_B" pintype="passive"/>
+    </net>
+    <net code="7" name="/H_M1_C" class="Default">
+      <node ref="M1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PH_C" pintype="passive"/>
+    </net>
+    <net code="8" name="/H_M2_A" class="Default">
+      <node ref="M2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PH_A" pintype="passive"/>
+    </net>
+    <net code="9" name="/H_M2_B" class="Default">
+      <node ref="M2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="PH_B" pintype="passive"/>
+    </net>
+    <net code="10" name="/H_M2_C" class="Default">
+      <node ref="M2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PH_C" pintype="passive"/>
+    </net>
+    <net code="11" name="/H_M3_A" class="Default">
+      <node ref="M3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="PH_A" pintype="passive"/>
+    </net>
+    <net code="12" name="/H_M3_B" class="Default">
+      <node ref="M3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="PH_B" pintype="passive"/>
+    </net>
+    <net code="13" name="/H_M3_C" class="Default">
+      <node ref="M3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="PH_C" pintype="passive"/>
+    </net>
+    <net code="14" name="/H_M4_A" class="Default">
+      <node ref="M4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="PH_A" pintype="passive"/>
+    </net>
+    <net code="15" name="/H_M4_B" class="Default">
+      <node ref="M4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="PH_B" pintype="passive"/>
+    </net>
+    <net code="16" name="/H_M4_C" class="Default">
+      <node ref="M4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PH_C" pintype="passive"/>
+    </net>
+  </nets>
+</export>

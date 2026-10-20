@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "SkyRelief")(type "KiCad")(uri "${KIPRJMOD}/libs/SkyRelief.kicad_sym")(options "")(descr "Original logical role symbols; not physical pin maps")))

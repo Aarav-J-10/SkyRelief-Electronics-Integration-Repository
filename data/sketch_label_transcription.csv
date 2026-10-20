@@ -1,0 +1,13 @@
+region,literal_visible_label,interpretation_limit,source
+upper-left,POWER DISTRIBUTION BOARD / PCB,Exact revision unknown,"pld_cd_1.jpg high-resolution full sheet, no crop"
+upper-right,MOTOR 920KV (four blocks),Motor family only,"pld_cd_1.jpg high-resolution full sheet, no crop"
+upper-right,ESC 30A (four blocks),"Label, not measured current","pld_cd_1.jpg high-resolution full sheet, no crop"
+centre,Pixhawk 2.4.8,Controller family,"pld_cd_1.jpg high-resolution full sheet, no crop"
+centre ports,MAIN OUT / TELEM / RC IN / POWER / GPS / I2C,"Role labels, no physical pins","pld_cd_1.jpg high-resolution full sheet, no crop"
+left,SAFETY SWITCH,Type/pinout unknown,"pld_cd_1.jpg high-resolution full sheet, no crop"
+left lower,3DR RADIO TELEMETRY / TRANSMISSION,Faint qualifier uncertain,"pld_cd_1.jpg high-resolution full sheet, no crop"
+lower-left,UBEC 5V 3A,Loaded output unknown,"pld_cd_1.jpg high-resolution full sheet, no crop"
+right,TOWER PRO 9g SERVO,"Faint text; three conductors unassigned, not I2C","pld_cd_1.jpg high-resolution full sheet, no crop"
+right lower,GPS NEO M8N,Compass revision unknown,"pld_cd_1.jpg high-resolution full sheet, no crop"
+bottom,BUZZER (faint),Type unverified,"pld_cd_1.jpg high-resolution full sheet, no crop"
+signature,Abhinav Patro,Authorship attribution,"pld_cd_1.jpg high-resolution full sheet, no crop"

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>.\kicad\delivery_reference.kicad_sch</source>
+    <date>2026-10-20T16:08:13+0530</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Layer 2 / NEW servo bench interface abstraction</title>
+        <company>SkyRelief engineering documentation</company>
+        <rev>0.1.0-review</rev>
+        <date>2026-10-20</date>
+        <source>delivery_reference.kicad_sch</source>
+        <comment number="1" value="Logical roles only; no historical physical pin map recovered."/>
+        <comment number="2" value="Licence pending author review; no physical test performed."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>External regulated 4.8 V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_reference_U1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b05cbd33-a1a4-5098-b1e7-cd01cd94c56e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>External PWM source</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_reference_U2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1f77c4b-bc4a-556f-b2b5-302747f4a099</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Servo role / PIN_UNVERIFIED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="delivery_reference_U3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="delivery_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36b78e80-def6-5cc2-93ad-7b73cbc5f4b4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SkyRelief" part="delivery_reference_U1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">External regulated 4.8 V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SUPPLY" type="power_out"/>
+        <pin num="2" name="RETURN" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_reference_U2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">External PWM source</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COMMAND" type="output"/>
+        <pin num="2" name="RETURN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="delivery_reference_U3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Servo role / PIN_UNVERIFIED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SUPPLY" type="power_in"/>
+        <pin num="2" name="COMMAND" type="input"/>
+        <pin num="3" name="RETURN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SkyRelief">
+      <uri>.\kicad/libs/SkyRelief.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/REF_4V8" class="Default">
+      <node ref="U1" pin="1" pinfunction="SUPPLY" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="SUPPLY" pintype="power_in"/>
+    </net>
+    <net code="2" name="/REF_COMMAND" class="Default">
+      <node ref="U2" pin="1" pinfunction="COMMAND" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="COMMAND" pintype="input"/>
+    </net>
+    <net code="3" name="/REF_RETURN" class="Default">
+      <node ref="U1" pin="2" pinfunction="RETURN" pintype="power_out"/>
+      <node ref="U2" pin="2" pinfunction="RETURN" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="RETURN" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

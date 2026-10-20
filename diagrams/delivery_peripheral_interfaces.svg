@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760"><rect width="1100" height="760" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17252f}.title{font-size:23px;font-weight:bold}.head{font-size:15px;font-weight:bold}.small{font-size:12px}</style>
+<defs><marker id="role" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="none" stroke="#344350"/></marker></defs>
+<text x="30" y="40" class="title">Delivery UAV / peripheral interface crosswalk</text>
+<text x="30" y="66" class="small">SOURCE-DERIVED functional module relations. Dashed arrows do not assign physical contacts or prove continuity.</text>
+<rect x="440" y="140" width="220" height="490" fill="#f3f6f8" stroke="#344350"/><text x="465" y="190" class="head">Pixhawk 2.4.8 family</text>
+<text x="465" y="222" class="small">PIN_UNVERIFIED</text><text x="465" y="247" class="small">Installed firmware unknown</text>
+<rect x="30" y="115" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="42" y="140" class="head">C05 / Power module</text>
+<text x="42" y="160" class="small">Supply/monitor role; insertion</text>
+<text x="42" y="175" class="small">unknown</text>
+<path d="M280 151H440" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="820" y="115" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="832" y="140" class="head">C06 / GPS / compass</text>
+<text x="832" y="160" class="small">Bus, orientation and contacts</text>
+<text x="832" y="175" class="small">unknown</text>
+<path d="M820 151H660" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="30" y="221" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="42" y="246" class="head">C08 / FS-iA6B receiver</text>
+<text x="42" y="266" class="small">RC IN role; installed protocol</text>
+<text x="42" y="281" class="small">unknown</text>
+<path d="M280 257H440" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="820" y="221" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="832" y="246" class="head">C07 / 3DR telemetry</text>
+<text x="832" y="266" class="small">TELEM role; bidirectional serial</text>
+<text x="832" y="281" class="small">boundary</text>
+<path d="M660 257H820" marker-start="url(#role)" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="30" y="327" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="42" y="352" class="head">C09 / Safety switch</text>
+<text x="42" y="372" class="small">Safety role; actual connector</text>
+<text x="42" y="387" class="small">unknown</text>
+<path d="M280 363H440" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="820" y="327" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="832" y="352" class="head">C10 / Buzzer</text>
+<text x="832" y="372" class="small">Annunciation role; active/passive</text>
+<text x="832" y="387" class="small">unknown</text>
+<path d="M660 363H820" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="30" y="433" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="42" y="458" class="head">C04 / Four ESCs</text>
+<text x="42" y="478" class="small">Command role; no motor</text>
+<text x="42" y="493" class="small">order/protocol</text>
+<path d="M440 469H280" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="820" y="433" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="832" y="458" class="head">C12 / Release servo</text>
+<text x="832" y="478" class="small">Signal / supply / return</text>
+<text x="832" y="493" class="small">unrecovered</text>
+<path d="M660 469H820" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="30" y="539" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="42" y="564" class="head">C13 / Range module</text>
+<text x="42" y="584" class="small">Identity, supply and coverage</text>
+<text x="42" y="599" class="small">unknown</text>
+<path d="M280 575H440" stroke="#344350" stroke-dasharray="5 4" fill="none" marker-end="url(#role)"/>
+<rect x="820" y="539" width="250" height="72" fill="white" stroke="#344350"/>
+<text x="832" y="564" class="head">C11 / UBEC / FPV branch</text>
+<text x="832" y="584" class="small">Separate 5 V / 3 A-labelled supply</text>
+<text x="832" y="599" class="small">role</text>
+
+<text x="30" y="650" class="small">C11 is a separate FPV branch, not a Pixhawk-powered camera: arrow means architectural association only.</text>
+<text x="30" y="672" class="small">Telemetry is a bidirectional functional role; exact UART contacts and settings remain unverified.</text>
+<text x="30" y="694" class="small">Servo conductors near I2C are unassigned. No servo positive/return, MAIN OUT channel or range pin is allocated.</text>
+</svg>

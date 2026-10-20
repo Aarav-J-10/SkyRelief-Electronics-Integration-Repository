@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>.\kicad\scout_reference.kicad_sch</source>
+    <date>2026-10-20T16:08:15+0530</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Layer 1 / Scout logical boundaries - PIN_UNVERIFIED</title>
+        <company>SkyRelief engineering documentation</company>
+        <rev>0.1.0-review</rev>
+        <date>2026-10-20</date>
+        <source>scout_reference.kicad_sch</source>
+        <comment number="1" value="Logical roles only; no historical physical pin map recovered."/>
+        <comment number="2" value="Licence pending author review; no physical test performed."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery / cells UNKNOWN</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="scout_reference_BT1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="scout_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91dbebc9-6c12-553a-b441-f5face24f9fa</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>4 x Gremlin 1104 5400 KV</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="scout_reference_M1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="scout_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29aee64a-90b3-5ae5-861c-0261c460518b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>GHF411 PRO-BMI family</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="scout_reference_U1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="scout_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>828f1cdf-96ad-59f9-a3cf-6fcf83a844c0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>R81 / protocol UNKNOWN</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="scout_reference_U2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="scout_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3606a2b7-2c8d-56f8-8be9-273f0d8377c2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>FPV / model UNKNOWN</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SkyRelief" part="scout_reference_U3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="scout_reference.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fe510d1-a2cd-5ef0-9f65-a48464bc333e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SkyRelief" part="scout_reference_BT1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Battery / cells UNKNOWN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="POWER_UNVERIFIED" type="passive"/>
+        <pin num="2" name="RETURN_UNVERIFIED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="scout_reference_M1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4 x Gremlin 1104 5400 KV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PHASES_UNVERIFIED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="scout_reference_U1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GHF411 PRO-BMI family</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BATTERY" type="passive"/>
+        <pin num="2" name="RC_INPUT" type="passive"/>
+        <pin num="3" name="MOTOR_GROUPS" type="passive"/>
+        <pin num="4" name="VIDEO_BOUNDARY" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="scout_reference_U2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R81 / protocol UNKNOWN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT_UNVERIFIED" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SkyRelief" part="scout_reference_U3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FPV / model UNKNOWN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SUPPLY_UNVERIFIED" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SkyRelief">
+      <uri>.\kicad/libs/SkyRelief.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="unconnected-(BT1-POWER_UNVERIFIED-Pad1)" class="Default">
+      <node ref="BT1" pin="1" pinfunction="POWER_UNVERIFIED" pintype="passive"/>
+    </net>
+    <net code="2" name="unconnected-(BT1-RETURN_UNVERIFIED-Pad2)" class="Default">
+      <node ref="BT1" pin="2" pinfunction="RETURN_UNVERIFIED" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(M1-PHASES_UNVERIFIED-Pad1)" class="Default">
+      <node ref="M1" pin="1" pinfunction="PHASES_UNVERIFIED" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(U1-BATTERY-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="BATTERY" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(U1-MOTOR_GROUPS-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="MOTOR_GROUPS" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(U1-RC_INPUT-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="RC_INPUT" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(U1-VIDEO_BOUNDARY-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="VIDEO_BOUNDARY" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(U2-OUTPUT_UNVERIFIED-Pad1)" class="Default">
+      <node ref="U2" pin="1" pinfunction="OUTPUT_UNVERIFIED" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(U3-SUPPLY_UNVERIFIED-Pad1)" class="Default">
+      <node ref="U3" pin="1" pinfunction="SUPPLY_UNVERIFIED" pintype="passive"/>
+    </net>
+  </nets>
+</export>

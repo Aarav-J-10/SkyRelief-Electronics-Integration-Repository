@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17252f}.h{font-size:22px;font-weight:bold}.s{font-size:14px}.b{font-size:17px;font-weight:bold}</style>
+<text x="35" y="45" class="h">Scout UAV / logical module reconstruction</text>
+<text x="35" y="75" class="s">Layer 1: generic JHEMCU image excluded; all physical contacts PIN_UNVERIFIED</text>
+<rect x="45" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="153" class="b">Battery</text>
+<text x="57" y="177" class="s">1100 mAh reported; cells unknown</text>
+<rect x="370" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="382" y="153" class="b">GHF411 PRO-BMI AIO</text>
+<text x="382" y="177" class="s">40 A / F4 / 2-6S family label</text>
+<rect x="695" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="707" y="153" class="b">Four Gremlin motors</text>
+<text x="707" y="177" class="s">1104 / 5400 KV family</text>
+<rect x="45" y="280" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="308" class="b">R81 / FPV operator</text>
+<text x="57" y="332" class="s">Manual piloting; protocol</text>
+<text x="57" y="350" class="s">unknown</text>
+<text x="35" y="465" class="s">ROLES: Battery -&gt; AIO -&gt; motor groups; R81 -&gt; AIO; FPV image -&gt; operator.</text>
+<text x="35" y="484" class="s">Family 2-6S capability is not the installed battery voltage or firmware target.</text>
+<text x="35" y="503" class="s">No deployed autonomous YOLO/ranging control pipeline is established.</text>
+<defs><marker id="flowarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#344350"/></marker></defs><path d="M307 170H367" stroke="#344350" fill="none" stroke-width="1.3" marker-end="url(#flowarrow)"/><path d="M632 170H692" stroke="#344350" fill="none" stroke-width="1.3" marker-end="url(#flowarrow)"/><path d="M307 325H337V235H485V217" stroke="#344350" fill="none" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#flowarrow)"/><text x="35" y="620" font-family="Arial,sans-serif" font-size="12">Arrows = functional roles, never physical wiring; dashed = unresolved implementation.</text></svg>

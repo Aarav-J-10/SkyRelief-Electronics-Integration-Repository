@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17252f}.h{font-size:22px;font-weight:bold}.s{font-size:14px}.b{font-size:17px;font-weight:bold}</style>
+<text x="35" y="45" class="h">Delivery / separated power domains</text>
+<text x="35" y="75" class="s">Historical labels and the new bench supply must remain distinct</text>
+<rect x="45" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="153" class="b">Propulsion</text>
+<text x="57" y="177" class="s">3S / 11.1 V nominal</text>
+<rect x="370" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="382" y="153" class="b">Controller POWER</text>
+<text x="382" y="177" class="s">Module output/revision unknown</text>
+<rect x="695" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="707" y="153" class="b">FPV UBEC</text>
+<text x="707" y="177" class="s">5 V / 3 A label, not measured</text>
+<rect x="45" y="280" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="308" class="b">Historical servo</text>
+<text x="57" y="332" class="s">Supply / signal / return UNKNOWN</text>
+<rect x="370" y="280" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="382" y="308" class="b">Bench reference only</text>
+<text x="382" y="332" class="s">External regulated 4.8 V source</text>
+<rect x="695" y="280" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="707" y="308" class="b">Bench common return</text>
+<text x="707" y="332" class="s">Supply + command source + servo</text>
+<text x="35" y="465" class="s">REFERENCE: External 4.8 V -&gt; servo supply; PWM -&gt; servo command; both sources -&gt; common return.</text>
+<text x="35" y="484" class="s">No historical servo positive or return net is drawn. POWER does not inherently energize output rail.</text>
+<text x="35" y="503" class="s">24.42 Wh = 11.1 V x 2.2 Ah nominal; current, usable energy and endurance unmeasured.</text>
+</svg>
