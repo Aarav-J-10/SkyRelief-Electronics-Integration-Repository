@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+# SPDX-License-Identifier: MIT
 """Generate original native KiCad logical role schematics, not physical pin maps."""
 import uuid,json,sys
 from pathlib import Path
@@ -51,7 +53,7 @@ class Sheet:
    (uuid "{self.root}") (paper "A4")
    (title_block (title {q(self.title)}) (date "2026-10-20") (rev "0.1.0-review") (company "SkyRelief engineering documentation")
    (comment 1 "Logical roles only; no historical physical pin map recovered.")
-   (comment 2 "Licence pending author review; no physical test performed."))
+   (comment 2 "CERN-OHL-W-2.0, (c) 2026 Aarav Jalan and Abhinav Patro; no physical test performed."))
    (lib_symbols {''.join(self.libs.values())})
    {''.join(self.items)}
    (embedded_fonts no))'''

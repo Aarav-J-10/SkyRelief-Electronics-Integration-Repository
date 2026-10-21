@@ -2,7 +2,7 @@
    (uuid "a1e2f059-cbab-51af-85ec-13a9b573dd8d") (paper "A4")
    (title_block (title "Layer 1 / Delivery historical power groups") (date "2026-10-20") (rev "0.1.0-review") (company "SkyRelief engineering documentation")
    (comment 1 "Logical roles only; no historical physical pin map recovered.")
-   (comment 2 "Licence pending author review; no physical test performed."))
+   (comment 2 "CERN-OHL-W-2.0, (c) 2026 Aarav Jalan and Abhinav Patro; no physical test performed."))
    (lib_symbols (symbol "SkyRelief:delivery_historical_power_BT1" (pin_names (offset 0.5)) (exclude_from_sim no) (in_bom yes) (on_board no)
    (property "Reference" "U" (at 0 8.89 0) (effects (font (size 1.8 1.8))))
    (property "Value" "3S / 11.1 V nominal" (at 0 -8.89 0) (effects (font (size 1.8 1.8))))

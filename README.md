@@ -1,40 +1,46 @@
-# SkyRelief / Electronics and integration
+# SkyRelief — electronics and integration
 
-**Historical SkyRelief hardware dossier with modern engineering reconstruction.** Source-supported components and connectivity are distinguished from new reference implementations. Unrecovered pin assignments, firmware parameters and code must not be treated as as-built records or electrically validated flight instructions.
+Supplement **S2** to the manuscript *SkyRelief: A Human-Supervised Dual-UAV Delivery Prototype with Mission-Architecture Analysis* (A. Jalan, A. Patro; candidate for MDPI *Hardware*, not yet submitted). Mechanical hardware is in the companion repository, [Skyrelief-Hardware-Repo](https://github.com/Aarav-J-10/Skyrelief-Hardware-Repo) (S1).
 
-Version **0.1.0-review**, created 20 October 2026. Historical source: [project archive](https://github.com/Shadowfax0707/project-ap-DDPDS_2024_1729-0707), main at **42f9a44600351ec6d0a57fb20756c547acf38cad**. All 49 source files freshly fetched and Git-blob verified; **13 author-attributed originals included here**. See [source manifest](data/source_manifest.csv).
+**What this repository gives you.** Three native KiCad 9 projects describing the SkyRelief electrical architecture at the level the records support, with reproducible ERC, exports and netlists; a register tracing every drawn connection to its source; parts and cost records; and the original A. Patro wiring sketch.
 
-**Review package: specific public reuse licences pending.** Five historical STEP models and external artwork are excluded. Read [licences](LICENSES.md), [known limitations](Known_Limitations.md), [exclusions](docs/EXCLUDED_THIRD_PARTY_CAD.md) and [issue matrix](data/issue_matrix.csv).
+**What it does not give you.** An installed harness, pin map, firmware configuration or release-command mapping. None survived. The KiCad sheets are **functional interface drawings** (role blocks), not buildable circuit schematics.
 
-## Quick start
-1. Read the [overview](docs/01_Electrical_System_Overview.md), [source register](docs/Source_Document_Register.md), [photo map](docs/Photo_Map.md) and [BOM interpretation](bom/README.md).
-2. Open kicad/delivery_reference.kicad_pro in KiCad 9.0.7. Historical power grouping and scout logical boundaries are separate native projects. Run: python scripts/run_native_checks.py --cli kicad-cli
-3. Run **python scripts/verify_electronics_repository.py** from the repository root (Python 3.11+; standard library). Review [file results](verification/repository_checks.json).
-4. Read [verification details](docs/13_Verification_and_ERC_Results.md) before using any result.
+| Project | ID | Meaning | ERC (KiCad 9.0.9) |
+|---|---|---|---|
+| [`delivery_historical_power`](kicad/delivery_historical_power.kicad_sch) | E-HIST-PWR | Pack → PDB → 4 ESCs → 4 three-phase motors, from the historical sketch | 0 |
+| [`delivery_reference`](kicad/delivery_reference.kicad_sch) | E-REF-SERVO | **New** bench servo interface: external 4.8 V, external PWM, common return | 0 |
+| [`scout_reference`](kicad/scout_reference.kicad_sch) | E-REF-SCOUT | Scout blocks with nine deliberately open pins | 9 × `pin_not_connected` |
 
-## Evidence and design scope
-- Historical evidence: component lists, original photographs, entered ODS and illustrative estimate plus authored wiring sketch. They do not establish installed settings.
-- Source-derived: functional diagrams, BOM/connection crosswalks and numerical audit facts.
-- New reference: external 4.8 V / PWM / common-return servo abstraction, never a Pixhawk physical pin map.
-- Missing: actual CAD permissions, complete latch/harness, firmware/parameters, logs and deployed perception source. No fully reproducible autonomous replica is supplied.
+<img src="assets/original_wiring_reference/pld_cd_1.jpg" width="260" alt="Original delivery wiring sketch by Abhinav Patro"> &nbsp; Exports: [PDF](kicad/exports/) · [SVG](kicad/exports/) · [netlists](kicad/exports/)
 
-## Documents
-- [Electrical evidence layers](docs/01_Electrical_System_Overview.md)
-- [Delivery architecture](docs/02_Delivery_UAV_Architecture.md)
-- [Scout architecture](docs/03_Scout_UAV_Architecture.md)
-- [Power domains and budgets](docs/04_Power_Distribution_and_Budgets.md)
-- [Pixhawk and peripherals](docs/05_Pixhawk_and_Peripheral_Interfaces.md)
-- [Scout AIO and receiver](docs/06_Scout_AIO_and_Receiver_Interfaces.md)
-- [Servo rail and release control](docs/07_Servo_Rail_and_Release_Control.md)
-- [Ranging and vision boundaries](docs/08_Ranging_and_Vision_Boundaries.md)
-- [Reference review and bring-up guide](docs/09_Reference_Implementation_Guide.md)
-- [Firmware status](docs/10_Firmware_and_Configuration_Status.md)
-- [Source provenance and rights](docs/11_Source_Provenance_and_Rights.md)
-- [Assumptions and unknowns](docs/12_Design_Assumptions_and_Unknowns.md)
-- [Native and file verification](docs/13_Verification_and_ERC_Results.md)
-- [Manuscript artifact map](docs/14_Manuscript_Figure_and_Table_Map.md)
+## Reproduce in 5 minutes
 
-## Authors and citation
-[CITATION.cff](CITATION.cff) identifies Aarav Jalan (Adani International School, Ahmedabad) and Abhinav Patro (SSRVM, Ahmedabad). This engineering reconstruction is for their review, not an already published release or DOI. See [contribution rules](CONTRIBUTING.md).
+```bash
+git clone https://github.com/Aarav-J-10/SkyRelief-Electronics-Integration-Repository && cd SkyRelief-Electronics-Integration-Repository
+python scripts/verify_electronics_repository.py      # Python 3.11+, standard library: files, hashes, links, quotes, ERC reports
+python scripts/build_schematics.py                   # regenerates the three .kicad_sch byte-identically
+python scripts/run_native_checks.py --cli kicad-cli  # needs KiCad 9: ERC JSON, PDF, SVG, netlist
+python scripts/release_gate.py                       # rights screen of the tree and Git history
+```
 
-No new physical experiments, flight qualification, certification or journal submission-readiness determination is claimed.
+Expected ERC: 0 / 0 / 9. CI runs the same steps, including KiCad in the official `kicad/kicad:9.0` container ([workflow](.github/workflows/verify.yml)).
+
+## Contents
+
+| Area | Start here |
+|---|---|
+| Reading the schematics | [Schematic interpretation](docs/Schematic_Interpretation.md) · [Scout ERC register](docs/Scout_ERC_Unresolved_Register.md) |
+| Connections | [Interface trace](docs/Scout_and_Delivery_Interface_Trace.md) · [`Pin_and_Connector_Register.csv`](docs/Pin_and_Connector_Register.csv) |
+| Power | [Power domain analysis](docs/Power_Domain_Analysis.md) · [Servo rail and release](docs/07_Servo_Rail_and_Release_Control.md) |
+| Firmware and software | [Configuration boundary](docs/Flight_Control_Configuration_Boundary.md) · [`Configuration_Matrix.csv`](docs/Configuration_Matrix.csv) · [Software provenance](docs/Software_and_Algorithm_Provenance.md) |
+| Safety | [Electronics safety and qualification](docs/Electronics_Safety_and_Qualification.md) |
+| Parts and cost | [`bom/`](bom/) (delivery and scout BOMs, 34-entry crosswalk, 20 dated quotes) |
+| Verification | [Native and file verification](docs/13_Verification_and_ERC_Results.md) · [`verification/`](verification/) |
+| Rights and release | [`LICENSE_MATRIX.csv`](LICENSE_MATRIX.csv) · [Publication gate](PUBLICATION_GATE.md) · [Release lock](PUBLICATION_RELEASE_LOCK.json) · [Release notes](RELEASE_NOTES.md) · [Licences](LICENSES.md) |
+
+## Status and licence
+
+Release **1.0.0** (tag `v1.0.0`). Licensed by both authors: hardware design sources under **CERN-OHL-W-2.0**, software under **MIT**, documentation, photographs and data under **CC-BY-4.0** ([details](LICENSES.md), [per-file matrix](LICENSE_MATRIX.csv)). Five historical STEP files (D01–D05) remain withheld and unlicensed. No electrical, servo or flight test was performed; the nine scout ERC findings are documented gaps, not defects to silence. The historical aircraft cannot be fully reproduced from these files (see [publication gate](PUBLICATION_GATE.md)).
+
+Cite with [CITATION.cff](CITATION.cff). Historical source archive: [Shadowfax0707/project-ap-DDPDS_2024_1729-0707](https://github.com/Shadowfax0707/project-ap-DDPDS_2024_1729-0707) at `42f9a44600351ec6d0a57fb20756c547acf38cad`.

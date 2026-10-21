@@ -1,0 +1,44 @@
+# SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+# SPDX-License-Identifier: MIT
+name: verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  files-and-rights:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: File, link, hash and report checks
+        run: python scripts/verify_electronics_repository.py
+      - name: Rights gate (tree and Git history, approved licence matrix)
+        run: python scripts/release_gate.py
+      - name: REUSE licence compliance
+        run: pip install reuse==6.2.0 && reuse lint
+      - name: Release lock and negative tests
+        run: python scripts/check_release_lock.py --self-test
+      - name: Schematic sources regenerate byte-identically
+        run: |
+          python scripts/build_schematics.py
+          git diff --exit-code -- kicad/*.kicad_sch kicad/*.kicad_pro kicad/libs
+  kicad-erc:
+    runs-on: ubuntu-24.04
+    container:
+      image: kicad/kicad:9.0
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+      - name: Native ERC and exports (expects 0 / 0 / 9 pin_not_connected)
+        run: |
+          python3 scripts/run_native_checks.py --cli kicad-cli || true
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open('verification/native_kicad_checks.json'))
+          got = {p['project']: p['violations_by_type'] for p in d['projects']}
+          want = {'delivery_historical_power': {}, 'delivery_reference': {}, 'scout_reference': {'pin_not_connected': 9}}
+          print(d['tool_version'], got)
+          sys.exit(0 if got == want and all(p[k]['exit_code'] == 0 for p in d['projects'] for k in ('svg', 'pdf', 'netlist')) else 1)
+          PY

@@ -1,0 +1,12 @@
+component,installed_or_hypothetical,board_revision,firmware_family,version,protocol,port,power,return,mode,failsafe,evidence,risk
+Pixhawk 2.4.8 (delivery FC),installed (historical),UNKNOWN,ArduPilot (via Mission Planner),UNKNOWN,MAVLink to GCS,UNKNOWN,Power module -> POWER,UNKNOWN,UNKNOWN,UNKNOWN,"Component list; build steps 4,7; photo pld13",Board clone/revision affects pin map and IMU
+ESCs x4,installed (historical),UNKNOWN,ESC firmware unrecorded (SimonK-type quote is a replacement),UNKNOWN,UNKNOWN,MAIN OUT1-OUT4 (order unknown),PDB,UNKNOWN,n/a,UNKNOWN,Build step 8,Wrong order -> loss of control
+NEO-M8N,installed (historical),UNKNOWN,u-blox,UNKNOWN,UBX/NMEA + I2C compass,UNKNOWN,From FC,UNKNOWN,n/a,n/a,Photo pld10; list,Compass orientation unknown
+FS-iA6B / FS-i6,installed (historical),UNKNOWN,FlySky,UNKNOWN,PPM or i-BUS,RC IN,From FC,UNKNOWN,UNKNOWN,UNKNOWN,Photo pld2; list,RC failsafe setting unknown
+3DR 433 MHz telemetry,installed (historical),UNKNOWN,SiK-type (not verified),UNKNOWN,MAVLink,TELEM (number unknown),From FC,UNKNOWN,n/a,n/a,Photo pld13; build step 6,Baud/port unknown
+Range / LiDAR module,installed (reported),UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,TELEM (build step 9),UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Build step 9; author report,"Model, coverage and behaviour unknown"
+Release servo (MG90S-marked),installed (historical),UNKNOWN,n/a,n/a,PWM (type assumed),UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Photo pld20; sketch,"Signal, supply and trigger unrecorded"
+GHF411 PRO-BMI AIO (scout FC),installed (historical),UNKNOWN,Betaflight,UNKNOWN,UNKNOWN,n/a,XT30 from pack,UNKNOWN,UNKNOWN,UNKNOWN,List; scout build steps,Target name unrecorded
+R81 receiver,installed (historical),UNKNOWN,RadioMaster,UNKNOWN,UNKNOWN,AIO UART (unknown),From AIO,UNKNOWN,n/a,UNKNOWN,List; scout step 4,Protocol unknown
+Scout FPV camera/VTX,installed (historical),UNKNOWN,UNKNOWN,UNKNOWN,Analogue video,UNKNOWN,5 V BEC/UBEC,UNKNOWN,n/a,n/a,Scout step 6,Model unknown
+E-REF-SERVO bench arrangement,hypothetical (new),n/a,n/a,n/a,PWM,Bench PWM source,External regulated 4.8 V,Common return,Bench only,Supply removed = servo unpowered; R01 needs spring for fail-retain,kicad/delivery_reference.kicad_sch,Not validated; not for flight
