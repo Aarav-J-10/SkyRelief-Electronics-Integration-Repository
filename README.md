@@ -37,10 +37,10 @@ Expected ERC: 0 / 0 / 9. CI runs the same steps, including KiCad in the official
 | Safety | [Electronics safety and qualification](docs/Electronics_Safety_and_Qualification.md) |
 | Parts and cost | [`bom/`](bom/) (delivery and scout BOMs, 34-entry crosswalk, 20 dated quotes) |
 | Verification | [Native and file verification](docs/13_Verification_and_ERC_Results.md) · [`verification/`](verification/) |
-| Rights and release | [`LICENSE_MATRIX.csv`](LICENSE_MATRIX.csv) · [Publication gate](PUBLICATION_GATE.md) · [Release lock](PUBLICATION_RELEASE_LOCK.json) · [Release notes](RELEASE_NOTES.md) |
+| Rights and release | [`LICENSE_MATRIX.csv`](LICENSE_MATRIX.csv) · [Publication gate](PUBLICATION_GATE.md) · [Release lock](PUBLICATION_RELEASE_LOCK.json) · [Release notes](RELEASE_NOTES.md) · [Licences](LICENSES.md) |
 
 ## Status and licence
 
-Release candidate **0.2.0-rc1**, untagged. **No reuse licence has been granted yet** ([decision sheet](AUTHORS_LICENSING_APPROVAL_REQUIRED.md), [LICENSES.md](LICENSES.md)). No electrical, servo or flight test was performed for this release. Do not power or fly anything from these drawings without independent, hardware-specific verification.
+Release **1.0.0** (tag `v1.0.0`). Licensed by both authors: hardware design sources under **CERN-OHL-W-2.0**, software under **MIT**, documentation, photographs and data under **CC-BY-4.0** ([details](LICENSES.md), [per-file matrix](LICENSE_MATRIX.csv)). Five historical STEP files (D01–D05) remain withheld and unlicensed. No electrical, servo or flight test was performed; the nine scout ERC findings are documented gaps, not defects to silence. The historical aircraft cannot be fully reproduced from these files (see [publication gate](PUBLICATION_GATE.md)).
 
 Cite with [CITATION.cff](CITATION.cff). Historical source archive: [Shadowfax0707/project-ap-DDPDS_2024_1729-0707](https://github.com/Shadowfax0707/project-ap-DDPDS_2024_1729-0707) at `42f9a44600351ec6d0a57fb20756c547acf38cad`.

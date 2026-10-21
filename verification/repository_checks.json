@@ -1,37 +1,7 @@
 {
-  "status": "FAIL",
-  "checks_run": 396,
-  "failures": [
-    "File manifest covers exact repository: ",
-    "SHA-256 .gitignore: ",
-    "SHA-256 CHANGELOG.md: ",
-    "SHA-256 CITATION.cff: ",
-    "SHA-256 docs/13_Verification_and_ERC_Results.md: ",
-    "SHA-256 kicad/delivery_historical_power.kicad_pro: ",
-    "SHA-256 kicad/delivery_historical_power.kicad_sch: ",
-    "SHA-256 kicad/delivery_reference.kicad_pro: ",
-    "SHA-256 kicad/delivery_reference.kicad_sch: ",
-    "SHA-256 kicad/exports/delivery_historical_power/delivery_historical_power.svg: ",
-    "SHA-256 kicad/exports/delivery_historical_power.net: ",
-    "SHA-256 kicad/exports/delivery_historical_power.pdf: ",
-    "SHA-256 kicad/exports/delivery_reference/delivery_reference.svg: ",
-    "SHA-256 kicad/exports/delivery_reference.net: ",
-    "SHA-256 kicad/exports/delivery_reference.pdf: ",
-    "SHA-256 kicad/exports/scout_reference/scout_reference.svg: ",
-    "SHA-256 kicad/exports/scout_reference.net: ",
-    "SHA-256 kicad/exports/scout_reference.pdf: ",
-    "SHA-256 kicad/libs/SkyRelief.kicad_sym: ",
-    "SHA-256 kicad/scout_reference.kicad_pro: ",
-    "SHA-256 kicad/scout_reference.kicad_sch: ",
-    "SHA-256 LICENSES.md: ",
-    "SHA-256 README.md: ",
-    "SHA-256 scripts/verify_electronics_repository.py: ",
-    "SHA-256 verification/delivery_historical_power_erc.json: ",
-    "SHA-256 verification/delivery_reference_erc.json: ",
-    "SHA-256 verification/native_kicad_checks.json: ",
-    "SHA-256 verification/scout_reference_erc.json: ",
-    "SHA-256 VERSION.txt: "
-  ],
+  "status": "PASS",
+  "checks_run": 428,
+  "failures": [],
   "python": "3.13.16",
   "scope": "File/native report validation only; no physical testing",
   "checks": [
@@ -211,12 +181,7 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: LICENSES.md -> data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: LICENSES.md -> Known_Limitations.md",
+      "check": "Exact-case Markdown link: LICENSES.md -> AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
@@ -226,7 +191,32 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: LICENSES.md -> AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "check": "Exact-case Markdown link: LICENSES.md -> REUSE.toml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> PUBLICATION_GATE.md",
       "pass": true,
       "detail": ""
     },
@@ -236,22 +226,7 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: RELEASE_NOTES.md -> CHANGELOG.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: RELEASE_NOTES.md -> PUBLICATION_GATE.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
       "check": "No local path/secret text: PUBLICATION_RELEASE_LOCK.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
       "pass": true,
       "detail": ""
     },
@@ -381,7 +356,7 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
       "pass": true,
       "detail": ""
     },
@@ -391,7 +366,22 @@
       "detail": ""
     },
     {
+      "check": "Exact-case Markdown link: README.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "Exact-case Markdown link: README.md -> CITATION.cff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
@@ -736,6 +726,21 @@
       "detail": ""
     },
     {
+      "check": "No local path/secret text: LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "No local path/secret text: bom/scout_electronics_bom.csv",
       "pass": true,
       "detail": ""
@@ -872,6 +877,11 @@
     },
     {
       "check": "Exact-case Markdown link: docs/11_Source_Provenance_and_Rights.md -> Source_Document_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/11_Source_Provenance_and_Rights.md -> ../LICENSES.md",
       "pass": true,
       "detail": ""
     },
@@ -1482,16 +1492,116 @@
     },
     {
       "check": "File manifest covers exact repository",
-      "pass": false,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .gitattributes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .github/workflows/release.yml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .github/workflows/verify.yml",
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 .gitignore",
-      "pass": false,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 AUTHOR_LICENSING_DECISIONS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CHANGELOG.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CITATION.cff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CONTRIBUTING.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 Known_Limitations.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 PUBLICATION_RELEASE_LOCK.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 REUSE.toml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 VERSION.txt",
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 assets/original_wiring_reference/pld_cd_1.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/README.md",
       "pass": true,
       "detail": ""
     },
@@ -1511,11 +1621,6 @@
       "detail": ""
     },
     {
-      "check": "SHA-256 bom/README.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
       "check": "SHA-256 bom/scout_electronics_bom.csv",
       "pass": true,
       "detail": ""
@@ -1523,16 +1628,6 @@
     {
       "check": "SHA-256 bom/supplier_cost_provenance.csv",
       "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 CHANGELOG.md",
-      "pass": false,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 CITATION.cff",
-      "pass": false,
       "detail": ""
     },
     {
@@ -1552,11 +1647,6 @@
     },
     {
       "check": "SHA-256 configs/PERCEPTION_IMPLEMENTATION_BOUNDARY.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 CONTRIBUTING.md",
       "pass": true,
       "detail": ""
     },
@@ -1727,7 +1817,7 @@
     },
     {
       "check": "SHA-256 docs/13_Verification_and_ERC_Results.md",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
@@ -1736,7 +1826,22 @@
       "detail": ""
     },
     {
+      "check": "SHA-256 docs/Configuration_Matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "SHA-256 docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Electronics_Safety_and_Qualification.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Flight_Control_Configuration_Boundary.md",
       "pass": true,
       "detail": ""
     },
@@ -1751,17 +1856,47 @@
       "detail": ""
     },
     {
+      "check": "SHA-256 docs/Pin_and_Connector_Register.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Power_Domain_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Schematic_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Scout_ERC_Unresolved_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Scout_and_Delivery_Interface_Trace.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Software_and_Algorithm_Provenance.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "SHA-256 docs/Source_Document_Register.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "SHA-256 evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
+      "check": "SHA-256 evidence/original/Payload_Drone_COMPONENT_LIST.pdf",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "SHA-256 evidence/original/Payload_Drone_COMPONENT_LIST.pdf",
+      "check": "SHA-256 evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
       "pass": true,
       "detail": ""
     },
@@ -1817,102 +1952,87 @@
     },
     {
       "check": "SHA-256 kicad/delivery_historical_power.kicad_pro",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/delivery_historical_power.kicad_sch",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/delivery_reference.kicad_pro",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/delivery_reference.kicad_sch",
-      "pass": false,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 kicad/exports/delivery_historical_power/delivery_historical_power.svg",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/exports/delivery_historical_power.net",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/exports/delivery_historical_power.pdf",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
-      "check": "SHA-256 kicad/exports/delivery_reference/delivery_reference.svg",
-      "pass": false,
+      "check": "SHA-256 kicad/exports/delivery_historical_power/delivery_historical_power.svg",
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/exports/delivery_reference.net",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/exports/delivery_reference.pdf",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
-      "check": "SHA-256 kicad/exports/scout_reference/scout_reference.svg",
-      "pass": false,
+      "check": "SHA-256 kicad/exports/delivery_reference/delivery_reference.svg",
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/exports/scout_reference.net",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/exports/scout_reference.pdf",
-      "pass": false,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 kicad/exports/scout_reference/scout_reference.svg",
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/libs/SkyRelief.kicad_sym",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/scout_reference.kicad_pro",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/scout_reference.kicad_sch",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 kicad/sym-lib-table",
       "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 Known_Limitations.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 LICENSES.md",
-      "pass": false,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 README.md",
-      "pass": false,
       "detail": ""
     },
     {
@@ -1931,7 +2051,17 @@
       "detail": ""
     },
     {
+      "check": "SHA-256 scripts/check_release_lock.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "SHA-256 scripts/compare_repositories.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/release_gate.py",
       "pass": true,
       "detail": ""
     },
@@ -1942,7 +2072,22 @@
     },
     {
       "check": "SHA-256 scripts/verify_electronics_repository.py",
-      "pass": false,
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/write_file_manifest.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/Technical_and_Licensing_Audit.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/Visual_Review.md",
+      "pass": true,
       "detail": ""
     },
     {
@@ -1957,12 +2102,12 @@
     },
     {
       "check": "SHA-256 verification/delivery_historical_power_erc.json",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 verification/delivery_reference_erc.json",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
@@ -1977,7 +2122,7 @@
     },
     {
       "check": "SHA-256 verification/native_kicad_checks.json",
-      "pass": false,
+      "pass": true,
       "detail": ""
     },
     {
@@ -1992,27 +2137,12 @@
     },
     {
       "check": "SHA-256 verification/scout_reference_erc.json",
-      "pass": false,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 verification/Technical_and_Licensing_Audit.md",
       "pass": true,
       "detail": ""
     },
     {
       "check": "SHA-256 verification/tool_versions.json",
       "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 verification/Visual_Review.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "SHA-256 VERSION.txt",
-      "pass": false,
       "detail": ""
     }
   ]

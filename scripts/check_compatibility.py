@@ -1,5 +1,6 @@
 """Offline compatibility review; never writes parameters or talks to hardware.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 """
 import argparse,json,sys
 from pathlib import Path

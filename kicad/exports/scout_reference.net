@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>./kicad/scout_reference.kicad_sch</source>
-    <date>2026-10-20T21:40:18+0000</date>
+    <date>2026-10-21T01:26:31+0000</date>
     <tool>Eeschema 9.0.9-9.0.9~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,7 +12,7 @@
         <date>2026-10-20</date>
         <source>scout_reference.kicad_sch</source>
         <comment number="1" value="Logical roles only; no historical physical pin map recovered."/>
-        <comment number="2" value="Licence pending author review; no physical test performed."/>
+        <comment number="2" value="CERN-OHL-W-2.0, (c) 2026 Aarav Jalan and Abhinav Patro; no physical test performed."/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>

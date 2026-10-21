@@ -1,4 +1,7 @@
-"""Native KiCad checks. SPDX-License-Identifier: LicenseRef-Pending-Approval."""
+"""Native KiCad checks.
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
+"""
 import argparse,json,subprocess,collections
 from pathlib import Path
 a=argparse.ArgumentParser();a.add_argument('--cli',default='kicad-cli');args=a.parse_args()

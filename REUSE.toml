@@ -1,0 +1,770 @@
+version = 1
+
+[[annotations]]
+path = ".gitattributes"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".github/workflows/release.yml"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".github/workflows/verify.yml"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".gitignore"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "AUTHOR_LICENSING_DECISIONS.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "CHANGELOG.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "CITATION.cff"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "CONTRIBUTING.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "Known_Limitations.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "LICENSES.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "PUBLICATION_GATE.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "PUBLICATION_RELEASE_LOCK.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "README.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "RELEASE_NOTES.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "REUSE.toml"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "VERSION.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "assets/original_wiring_reference/pld_cd_1.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bom/README.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bom/complete_platform_parts_crosswalk.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bom/delivery_electronics_bom.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bom/interface_and_connector_register.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bom/scout_electronics_bom.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bom/supplier_cost_provenance.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "configs/ArduPilot_REPRODUCTION_GUIDE.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "configs/Betaflight_REPRODUCTION_GUIDE.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "configs/NO_HISTORICAL_PARAMETER_EXPORTS.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "configs/PERCEPTION_IMPLEMENTATION_BOUNDARY.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/archived_thrust_sheet_transcription.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/documented_connections.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/erc_unresolved_crosswalk.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/evidence_categories.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/evidence_ledger.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/included_original_assets.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/issue_matrix.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/sketch_label_transcription.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/source_coordinate_scope.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/source_freeze.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/source_geometry_audit.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/source_image_audit.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/source_manifest.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/unresolved_nets.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "data/withheld_asset_manifest.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diagrams/command_and_information_flow.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diagrams/delivery_functional_overview.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diagrams/delivery_peripheral_interfaces.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diagrams/delivery_power_domains.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diagrams/scout_functional_overview.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "diagrams/wiring_evidence_crosswalk.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/01_Electrical_System_Overview.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/02_Delivery_UAV_Architecture.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/03_Scout_UAV_Architecture.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/04_Power_Distribution_and_Budgets.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/05_Pixhawk_and_Peripheral_Interfaces.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/06_Scout_AIO_and_Receiver_Interfaces.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/07_Servo_Rail_and_Release_Control.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/08_Ranging_and_Vision_Boundaries.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/09_Reference_Implementation_Guide.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/10_Firmware_and_Configuration_Status.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/11_Source_Provenance_and_Rights.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/12_Design_Assumptions_and_Unknowns.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/13_Verification_and_ERC_Results.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/14_Manuscript_Figure_and_Table_Map.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Configuration_Matrix.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/EXCLUDED_THIRD_PARTY_CAD.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Electronics_Safety_and_Qualification.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Flight_Control_Configuration_Boundary.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Historical_Data_Interpretation.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Photo_Map.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Pin_and_Connector_Register.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Power_Domain_Analysis.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Schematic_Interpretation.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Scout_ERC_Unresolved_Register.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Scout_and_Delivery_Interface_Trace.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Software_and_Algorithm_Provenance.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "docs/Source_Document_Register.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "evidence/original/Payload_Drone_COMPONENT_LIST.pdf"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "evidence/original/Scout_Drone_Components.pdf"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "evidence/original/Thrust_Test_1.ods"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/payload/pld10.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/payload/pld13.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/payload/pld2.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/payload/pld20.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/payload/pld25.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/scout/sc7.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/scout/sc8.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "images/scout/sc9.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "2024-2025 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "kicad/delivery_historical_power.kicad_pro"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/delivery_historical_power.kicad_sch"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/delivery_reference.kicad_pro"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/delivery_reference.kicad_sch"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/delivery_historical_power/delivery_historical_power.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/delivery_historical_power.net"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/delivery_historical_power.pdf"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/delivery_reference/delivery_reference.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/delivery_reference.net"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/delivery_reference.pdf"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/scout_reference/scout_reference.svg"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/scout_reference.net"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/exports/scout_reference.pdf"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/libs/SkyRelief.kicad_sym"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/scout_reference.kicad_pro"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/scout_reference.kicad_sch"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "kicad/sym-lib-table"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CERN-OHL-W-2.0"
+
+[[annotations]]
+path = "requirements.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/build_schematics.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/check_compatibility.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/check_release_lock.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/compare_repositories.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/release_gate.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/run_native_checks.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/verify_electronics_repository.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "scripts/write_file_manifest.py"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "verification/Technical_and_Licensing_Audit.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/Visual_Review.md"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/compatibility_negative_check.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/cross_repository_check.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/delivery_historical_power_erc.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/delivery_reference_erc.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/extracted_archive_engineering_checks.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/file_manifest.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/incomplete_compatibility_fixture.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/native_kicad_checks.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/pdf_metadata_audit.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/repository_checks.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/scout_reference_erc.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "verification/tool_versions.json"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "LICENSE_MATRIX.csv"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Aarav Jalan and Abhinav Patro"
+SPDX-License-Identifier = "CC-BY-4.0"
+
